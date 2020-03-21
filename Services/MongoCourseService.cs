@@ -19,6 +19,7 @@ namespace Identity.Api.Services
 
     public class MongoCourseService : IMongoCourseService
     {
+        string env = "https://localhost:6001";
         private readonly IMongoCollection<MongoCourseDto> _course;
         private readonly IHostingEnvironment _hostingEnvironment; 
 
@@ -327,7 +328,7 @@ namespace Identity.Api.Services
                     {
                         file.CopyTo(fileStream);
                         fileStream.Flush();
-                        course.LogoPath = _hostingEnvironment.WebRootPath + "\\" + m + "\\" + guid + file.FileName;
+                        course.LogoPath = env + "\\" + m + "\\" + guid + file.FileName;
                         var result = await _course.ReplaceOneAsync(x => x.Id == CID, course);
                         return result.IsAcknowledged;
                     }
@@ -348,7 +349,7 @@ namespace Identity.Api.Services
 
             var course = await GetCourse(CID);
             var module = course.Modules.SingleOrDefault(x => x.Id == MID);
-            string m = course.Id + course.Name + "\\" + module.Id + module.Name;
+            string m = course.Id + course.Name + "\\" +  module.Name;
             if (file.Length > 0)
             {
                 try
@@ -364,7 +365,7 @@ namespace Identity.Api.Services
                         file.CopyTo(fileStream);
                         fileStream.Flush();
                         course.Modules.Remove(module);
-                        module.LogoPath = _hostingEnvironment.WebRootPath + "\\" + m + "\\" + guid + file.FileName;
+                        module.LogoPath = env + "\\" + m + "\\" + guid + file.FileName;
                         course.Modules.Add(module);
                         var result = await _course.ReplaceOneAsync(x => x.Id == CID, course);
                         return result.IsAcknowledged;
@@ -386,24 +387,25 @@ namespace Identity.Api.Services
             var course = await GetCourse(CID);
             var module = course.Modules.SingleOrDefault(x => x.Id == MID);
             var topic = module.Topics.SingleOrDefault(x => x.Id == TID);
-            string m = course.Id + course.Name + "\\" + module.Id + module.Name + "\\" + topic.Id + topic.Name;
+            string m = course.Id + course.Name + "\\" + module.Name + "\\" +  topic.Name;
             if (file.Length > 0)
             {
                 try
                 {
 
-                    if (!Directory.Exists(_hostingEnvironment.WebRootPath + "\\" + m + "\\"))
+                    if (!Directory.Exists(_hostingEnvironment.WebRootPath + "\\" +"Topics"+ "\\" + m + "\\"))
                     {
-                        Directory.CreateDirectory(_hostingEnvironment.WebRootPath + "\\" + m + "\\");
+                        Directory.CreateDirectory(_hostingEnvironment.WebRootPath + "\\" + "Topics" + "\\" + m + "\\");
                     }
                     string guid = Guid.NewGuid().ToString();
-                    using (FileStream fileStream = System.IO.File.Create(_hostingEnvironment.WebRootPath + "\\" + m + "\\" + guid + file.FileName.Replace("\\", "s").Replace(":", "s")))
+                    using (FileStream fileStream = System.IO.File.Create(_hostingEnvironment.WebRootPath  + "\\" + "Topics" + "\\" + m + "\\" + file.FileName.Replace("\\", "s").Replace(":", "s")))
                     {
                         file.CopyTo(fileStream);
                         fileStream.Flush();
                         course.Modules.Remove(module);
                         module.Topics.Remove(topic);
-                        topic.Path = _hostingEnvironment.WebRootPath + "\\" + m + "\\" + guid + file.FileName;
+                        topic.Path = env + "\\" + "Topics" + "\\" + m + "\\"  + file.FileName.Replace("\\", "s").Replace(":"
+                            , "s");
                         module.Topics.Add(topic);
                         course.Modules.Add(module);
                         var result = await _course.ReplaceOneAsync(x => x.Id == CID, course);
