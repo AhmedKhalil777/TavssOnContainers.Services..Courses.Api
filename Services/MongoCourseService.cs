@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Identity.Api.Contracts.V1.Requests;
-using Identity.Api.Contracts.V1.Responses;
-using Identity.Api.Domain;
-using Identity.Api.Options;
+using Course.Api.Contracts.V1.Requests;
+using Course.Api.Contracts.V1.Responses;
+using Course.Api.Domain;
+using Course.Api.Options;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using MongoDB.Bson;
@@ -14,7 +14,7 @@ using MongoDB.Driver;
 
 using Newtonsoft.Json;
 
-namespace Identity.Api.Services
+namespace Course.Api.Services
 {
 
     public class MongoCourseService : IMongoCourseService

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Identity.Api.Options
+namespace Course.Api.Options
 {
 
     public class CourseStoreDatabaseSettings : ICoursestoreDatabaseSettings

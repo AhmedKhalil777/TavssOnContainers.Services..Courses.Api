@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Identity.Api.Options;
-using Identity.Api.Services;
+using Course.Api.Options;
+using Course.Api.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace Identity.Api.Installers
+namespace Course.Api.Installers
 {
     public class MongoDBInstaller : IInstaller
     {

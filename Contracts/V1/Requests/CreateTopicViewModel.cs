@@ -1,10 +1,10 @@
-﻿using Identity.Api.Domain;
+﻿using Course.Api.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Identity.Api.Contracts.V1.Requests
+namespace Course.Api.Contracts.V1.Requests
 {
     public class CreateTopicViewModel
     {

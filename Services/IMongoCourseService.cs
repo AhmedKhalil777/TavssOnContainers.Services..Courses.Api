@@ -1,6 +1,6 @@
-﻿using Identity.Api.Contracts.V1.Requests;
-using Identity.Api.Contracts.V1.Responses;
-using Identity.Api.Domain;
+﻿using Course.Api.Contracts.V1.Requests;
+using Course.Api.Contracts.V1.Responses;
+using Course.Api.Domain;
 using Microsoft.AspNetCore.Http;
 using MongoDB.Driver;
 using System;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Identity.Api.Services
+namespace Course.Api.Services
 {
     public interface IMongoCourseService
     {

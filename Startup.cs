@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Course.Api.Seeding;
-using Identity.Api.Domain;
-using Identity.Api.Installers;
-using Identity.Api.Options;
+using Course.Api.Domain;
+using Course.Api.Installers;
+using Course.Api.Options;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Driver;
 
-namespace Identity.Api
+namespace Course.Api
 {
     public class Startup
     {
@@ -74,7 +74,7 @@ namespace Identity.Api
             using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
             {
 
-                    serviceScope.ServiceProvider.GetService<IMongoCollection<MongoCourseDto>>().CoursesSeeding(settings);
+                serviceScope.ServiceProvider.GetService<IMongoCollection<MongoCourseDto>>().CoursesSeeding(settings);
 
             }
         }

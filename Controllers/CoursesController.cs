@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Identity.Api.Contracts.V1.Requests;
-using Identity.Api.Domain;
-using Identity.Api.Services;
-using Identity.Api.V1.Contracts;
+using Course.Api.Contracts.V1.Requests;
+using Course.Api.Domain;
+using Course.Api.Services;
+using Course.Api.V1.Contracts;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Identity.Api.Controllers
+namespace Course.Api.Controllers
 {
     [ApiController]
     public class CoursesController : ControllerBase

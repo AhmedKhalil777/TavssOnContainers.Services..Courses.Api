@@ -1,0 +1,77 @@
+[
+  {
+    "id": "5e7a93ee33c2a23b0065a660",
+    "name": "DotNet Core",
+    "logoPath": "\\5e7a93ee33c2a23b0065a660DotNet Core\\34bf10cc-d822-460d-a889-17b767877aa0E:\\Design\\Items\\Market\\1200px-.NET_Core_Logo.svg.png",
+    "modules": [
+      {
+        "id": "5a2ee640-1de5-44ff-8472-6adeb8ae1fcf",
+        "name": "Fundamentals",
+        "logoPath": null,
+        "position": 1,
+        "topics": [
+          {
+            "id": "7f783c9f-a12b-4cd2-b188-cacd9854c76c",
+            "discription": "The Data Types and Structure",
+            "type": 0,
+            "name": "Data Types",
+            "position": 1,
+            "path": null
+          }
+        ]
+      }
+    ],
+    "doctors": [
+      {
+        "id": "509f9474-1901-418f-b284-e0c3c3b87f5a",
+        "name": "AkramGaber"
+      },
+      {
+        "id": "d34c14dd-f626-4843-9c44-1c17fa5c3b44",
+        "name": "SamirAbdelRazik"
+      }
+    ],
+    "students": [
+      {
+        "id": "0d165b71-7d75-4801-9d7e-43c4ee0f6029",
+        "name": "SohierMazen",
+        "mark": 0
+      },
+      {
+        "id": "39572be7-b8f5-4eec-865a-f31f80a03b5d",
+        "name": "MohammadTarek",
+        "mark": 0
+      },
+      {
+        "id": "50031b00-fb73-4937-bceb-fe94ef53a4a4",
+        "name": "AliIbrahim",
+        "mark": 0
+      },
+      {
+        "id": "813e0268-4cc9-4413-b2c1-520a5e806ffe",
+        "name": "MonirShaker",
+        "mark": 0
+      },
+      {
+        "id": "a177848a-7971-43ba-b7ea-89fbd562d68f",
+        "name": "MonaAhmed",
+        "mark": 0
+      },
+      {
+        "id": "d4f95e65-c471-4702-b7d1-31140c66f1be",
+        "name": "AhmedKhalil",
+        "mark": 0
+      },
+      {
+        "id": "e56ae8b3-820e-4d47-96b4-6b2d9b4cb51e",
+        "name": "SamehMohammad",
+        "mark": 0
+      },
+      {
+        "id": "fc3261f6-9d4e-4b59-81d6-4c521c143d14",
+        "name": "MohammadSalem",
+        "mark": 0
+      }
+    ]
+  }
+]

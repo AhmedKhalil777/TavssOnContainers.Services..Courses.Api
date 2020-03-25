@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Identity.Api.Domain
+namespace Course.Api.Domain
 {
     public class Module
     {

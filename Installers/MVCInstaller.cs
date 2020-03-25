@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Identity.Api.Options;
+using Course.Api.Options;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
-namespace Identity.Api.Installers
+namespace Course.Api.Installers
 {
     public class MVCInstaller : IInstaller
     {

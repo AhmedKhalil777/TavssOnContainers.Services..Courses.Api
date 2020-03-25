@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Identity.Api.Installers
+namespace Course.Api.Installers
 {
     public static class InstallerExtensions 
     {

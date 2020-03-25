@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Cosmonaut;
 using Cosmonaut.Extensions.Microsoft.DependencyInjection;
-using Identity.Api.Services;
+using Course.Api.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Azure.Documents.Client;
@@ -14,7 +14,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Identity.Api.Installers
+namespace Course.Api.Installers
 {
     public class NoSqlCosmosInstaller : IInstaller
     {

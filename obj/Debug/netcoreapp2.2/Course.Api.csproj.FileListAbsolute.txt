@@ -1,0 +1,92 @@
+D:\Graduation Project\Courses\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.deps.json
+D:\Graduation Project\Courses\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.runtimeconfig.json
+D:\Graduation Project\Courses\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.runtimeconfig.dev.json
+D:\Graduation Project\Courses\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.dll
+D:\Graduation Project\Courses\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.pdb
+D:\Graduation Project\Courses\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.csproj.CoreCompileInputs.cache
+D:\Graduation Project\Courses\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.RazorAssemblyInfo.cache
+D:\Graduation Project\Courses\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.RazorAssemblyInfo.cs
+D:\Graduation Project\Courses\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.AssemblyInfoInputs.cache
+D:\Graduation Project\Courses\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.AssemblyInfo.cs
+D:\Graduation Project\Courses\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.RazorTargetAssemblyInfo.cache
+D:\Graduation Project\Courses\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.dll
+D:\Graduation Project\Courses\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.pdb
+D:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.deps.json
+D:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.runtimeconfig.json
+D:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.runtimeconfig.dev.json
+D:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.dll
+D:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.pdb
+D:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.csproj.CoreCompileInputs.cache
+D:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.RazorAssemblyInfo.cache
+D:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.RazorAssemblyInfo.cs
+D:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.AssemblyInfoInputs.cache
+D:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.AssemblyInfo.cs
+D:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.RazorTargetAssemblyInfo.cache
+D:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.dll
+D:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.pdb
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.deps.json
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.runtimeconfig.json
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.runtimeconfig.dev.json
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.dll
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.pdb
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.RazorAssemblyInfo.cache
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.RazorAssemblyInfo.cs
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.AssemblyInfoInputs.cache
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.AssemblyInfo.cs
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.RazorTargetAssemblyInfo.cache
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.dll
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.pdb
+E:\Graduation Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.csprojAssemblyReference.cache
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\bin\Debug\netcoreapp2.2\Course.Api.deps.json
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\bin\Debug\netcoreapp2.2\Course.Api.runtimeconfig.json
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\bin\Debug\netcoreapp2.2\Course.Api.runtimeconfig.dev.json
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\bin\Debug\netcoreapp2.2\Course.Api.dll
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\bin\Debug\netcoreapp2.2\Course.Api.pdb
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.csprojAssemblyReference.cache
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.RazorAssemblyInfo.cache
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.RazorAssemblyInfo.cs
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.AssemblyInfoInputs.cache
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.AssemblyInfo.cs
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.RazorTargetAssemblyInfo.cache
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.dll
+E:\Graduation_Project\Devops\TavssOnContainers.Services..Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.pdb
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.csprojAssemblyReference.cache
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.RazorAssemblyInfo.cache
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.RazorAssemblyInfo.cs
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.AssemblyInfoInputs.cache
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.AssemblyInfo.cs
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.RazorTargetAssemblyInfo.cache
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.dll
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\obj\Debug\netcoreapp2.2\Course.Api.pdb
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\bin\Debug\netcoreapp2.2\Course.Api.deps.json
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\bin\Debug\netcoreapp2.2\Course.Api.runtimeconfig.json
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\bin\Debug\netcoreapp2.2\Course.Api.runtimeconfig.dev.json
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\bin\Debug\netcoreapp2.2\Course.Api.dll
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\bin\Debug\netcoreapp2.2\Course.Api.pdb
+E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github\bin\Debug\netcoreapp2.2\CoureseSeeder.json
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\CoureseSeeder.json
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.deps.json
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.runtimeconfig.json
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.runtimeconfig.dev.json
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.dll
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\bin\Debug\netcoreapp2.2\Course.Api.pdb
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.csprojAssemblyReference.cache
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.RazorAssemblyInfo.cache
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.RazorAssemblyInfo.cs
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.AssemblyInfoInputs.cache
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.AssemblyInfo.cs
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.RazorTargetAssemblyInfo.cache
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.dll
+E:\Graduation_Project\src\TavssWebsite\Tavss\Services\Course\Course.Api\obj\Debug\netcoreapp2.2\Course.Api.pdb

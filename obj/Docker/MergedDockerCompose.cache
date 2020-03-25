@@ -1,0 +1,18 @@
+services:
+  course.api:
+    build:
+      context: E:\Graduation_Project\Devops\TavssOnContainers.Services.Courses.Api.Github
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: courseapi
+    ports:
+    - published: 9000
+      target: 80
+    - published: 10000
+      target: 443
+    volumes:
+    - C:\Users\ProgE\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\ProgE\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

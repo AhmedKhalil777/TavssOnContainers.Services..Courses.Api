@@ -1,5 +1,5 @@
-﻿using Identity.Api.Domain;
-using Identity.Api.Options;
+﻿using Course.Api.Domain;
+using Course.Api.Options;
 using MongoDB.Driver;
 using System.Collections.Generic;
 using System.IO;
