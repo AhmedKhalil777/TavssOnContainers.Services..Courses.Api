@@ -19,7 +19,6 @@ namespace Identity.Api.Services
 
     public class MongoCourseService : IMongoCourseService
     {
-        string env = "https://localhost:6001";
         private readonly IMongoCollection<MongoCourseDto> _course;
         private readonly IHostingEnvironment _hostingEnvironment; 
 
@@ -182,7 +181,7 @@ namespace Identity.Api.Services
             if (student != null)
             {
                 var course = await GetCourse(CID);
-                course.Students.Add(new Student { Id = student.Id, Mark = student.Mark.ToString(), Name = student.Name });
+                course.Students.Add(new Student { Id = student.Id, Mark = student.Mark, Name = student.Name });
                 var result = await _course.ReplaceOneAsync(x => x.Id == CID, course);
                 return result.IsAcknowledged;
             }
@@ -328,7 +327,7 @@ namespace Identity.Api.Services
                     {
                         file.CopyTo(fileStream);
                         fileStream.Flush();
-                        course.LogoPath = env + "\\" + m + "\\" + guid + file.FileName;
+                        course.LogoPath =  "\\" + m + "\\" + guid + file.FileName;
                         var result = await _course.ReplaceOneAsync(x => x.Id == CID, course);
                         return result.IsAcknowledged;
                     }
@@ -365,7 +364,7 @@ namespace Identity.Api.Services
                         file.CopyTo(fileStream);
                         fileStream.Flush();
                         course.Modules.Remove(module);
-                        module.LogoPath = env + "\\" + m + "\\" + guid + file.FileName;
+                        module.LogoPath = "\\" + m + "\\" + guid + file.FileName;
                         course.Modules.Add(module);
                         var result = await _course.ReplaceOneAsync(x => x.Id == CID, course);
                         return result.IsAcknowledged;
@@ -404,7 +403,7 @@ namespace Identity.Api.Services
                         fileStream.Flush();
                         course.Modules.Remove(module);
                         module.Topics.Remove(topic);
-                        topic.Path = env + "\\" + "Topics" + "\\" + m + "\\"  + file.FileName.Replace("\\", "s").Replace(":"
+                        topic.Path =  "\\" + "Topics" + "\\" + m + "\\"  + file.FileName.Replace("\\", "s").Replace(":"
                             , "s");
                         module.Topics.Add(topic);
                         course.Modules.Add(module);

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Course.Api.Seeding;
+using Identity.Api.Domain;
 using Identity.Api.Installers;
 using Identity.Api.Options;
 using Microsoft.AspNetCore.Builder;
@@ -11,6 +13,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MongoDB.Driver;
 
 namespace Identity.Api
 {
@@ -60,6 +63,20 @@ namespace Identity.Api
 
             });
             app.UseMvc();
+
+            var courseSettings = Configuration.GetSection(nameof(CourseStoreDatabaseSettings));
+            var settings = new CourseStoreDatabaseSettings
+            {
+                ConnectionString = courseSettings["ConnectionString"],
+                CoursesCollectionName = courseSettings["CoursesCollectionName"],
+                DatabaseName = courseSettings["DatabaseName"]
+            };
+            using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+            {
+
+                    serviceScope.ServiceProvider.GetService<IMongoCollection<MongoCourseDto>>().CoursesSeeding(settings);
+
+            }
         }
     }
 }

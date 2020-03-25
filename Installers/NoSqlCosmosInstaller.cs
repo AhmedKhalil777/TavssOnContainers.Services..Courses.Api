@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Cosmonaut;
-using Cosmonaut.Configuration;
 using Cosmonaut.Extensions.Microsoft.DependencyInjection;
 using Identity.Api.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;

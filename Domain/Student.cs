@@ -11,6 +11,6 @@ namespace Identity.Api.Domain
         [Required]
         public string Id { get; set; }
         public string Name { get; set; }
-        public string Mark { get; set; }
+        public int Mark { get; set; }
     }
 }

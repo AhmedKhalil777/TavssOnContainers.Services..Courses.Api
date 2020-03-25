@@ -139,7 +139,7 @@ namespace Identity.Api.Controllers
             {
                 Id = student.Id,
                 Name = student.Name,
-                Mark = student.Mark.ToString()
+                Mark = (int)student.Mark
 
             });
             if (IsSuccess)
